@@ -30,11 +30,14 @@
 
 <h2>Type function</h2>
 <p>Type function is used to find the data type of a given variable in python.</p>
-<p>a = 32</br>type(a)</p>
+<pre>
+a = 32 
+type(a)
+</pre>
 
 <h2>Input function</h2>
 <p>Input function allows the user to take input from the keyword as a string.</p>
-<p>a = input("Enter name: ")</p>
+<pre>a = input("Enter name: ")</pre>
 
 <h2>Operators in python</h2>
 <ul>
@@ -43,3 +46,15 @@
     <li>Comparison operators :- ==, >, >=, <, <=, !=, etc.</li>
     <li>Logical operators :- and, or, not</li>
 </ul>
+
+<h2>Conditional Statements</h2>
+<p>Conditional statements are a multiway decision taken by our program due to certain conditions in our code.</p>
+<h4>Syntax:</h4>
+<pre>
+if(condition1):
+    statement1
+elif(condition2):
+    statement2
+else:
+    statement3
+</pre>
