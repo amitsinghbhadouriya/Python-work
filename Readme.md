@@ -4,7 +4,7 @@
 <p>Python is a Case-Sensitive language.</p>
 
 <h2>Use of Comments?</h2>
-<p>Comments are used to write something which to programmer does not want to execute</p>
+<p>Comments are used to write something which to programmer does not want to execute.</p>
 
 <h2>What is Variable?</h2>
 <p>A variable is a name given to a memory location in a program.</p>
