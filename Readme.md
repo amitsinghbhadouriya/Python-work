@@ -1,6 +1,14 @@
 <h1>Introduction To Python</h1>
+<h2>What is Python?</h2>
+<p>Python is a simple and easy to understand language which feels like reading simple english. This pseudo code nature of python makes it easy to learn and understandable by beginners.</p>
+<p>Python is a Case-Sensitive language.</p>
+
+<h2>Use of Comments?</h2>
+<p>Comments are used to write something which to programmer does not want to execute</p>
+
 <h2>What is Variable?</h2>
 <p>A variable is a name given to a memory location in a program.</p>
+
 <h2>What is Data Types?</h2>
 <p>A data type defines what kind of value a variable holds and what operations can be performed on it.</p>
 <p>There are 5 types of data type.</p>
@@ -11,3 +19,20 @@
     <li>Boolean</li>
     <li>None</li>
 </ul>
+
+<h2>Keywords in python</h2>
+<p>Reserved words in python is called keywords.</p>
+<p>like :- and, del, else , as, assert , break , etc.</p>
+
+<h2>What is tokens?</h2>
+<p>Tokens are the smallest building blocks of the language — the pieces that the Python interpreter understands when reading and executing your code.
+</p>
+
+<h2>Type function</h2>
+<p>Type function is used to find the data type of a given variable in python.</p>
+<p>a = 32</br>type(a)</p>
+
+<h2>Input function</h2>
+<p>Input function allows the user to take input from the keyword as a string.</p>
+<p>a = input("Enter name: ")</p>
+
