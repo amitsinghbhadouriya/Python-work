@@ -36,3 +36,10 @@
 <p>Input function allows the user to take input from the keyword as a string.</p>
 <p>a = input("Enter name: ")</p>
 
+<h2>Operators in python</h2>
+<ul>
+    <li>Arithmetic operators :- +, -, *, /, etc.</li>
+    <li>Assignment operators :- =, +=, -=, etc.</li>
+    <li>Comparison operators :- ==, >, >=, <, <=, !=, etc.</li>
+    <li>Logical operators :- and, or, not</li>
+</ul>
