@@ -67,9 +67,9 @@ else:
     <li>Double quoted string</li>
     <li>Triple quoted string</li>
 </ul>
-<h3>
-   <u>String Functions</u>
-</h3>
+<u>
+<h3>String Functions</h3>
+</u>
 <b>Length Function:</b>
 <p>This function return the length of the string.</p>
 <pre>
