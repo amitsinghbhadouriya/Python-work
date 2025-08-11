@@ -67,6 +67,35 @@ else:
     <li>Double quoted string</li>
     <li>Triple quoted string</li>
 </ul>
+<h3>Escape Sequence Character</h3>
+<p>Escape sequence character comprises of more than one characters but represents one character when used within the string.</p>
+<table>
+    <tr>
+        <th>ESC</th>
+        <th>Meaning</th>
+    </tr>
+    <tr>
+        <td>\n</td>
+        <td>New Line</td>
+    </tr>
+    <tr>
+        <td>\t</td>
+        <td>Tab</td>
+    </tr>
+    <tr>
+        <td>\'</td>
+        <td>Single Quote</td>
+    </tr>
+    <tr>
+        <td>\\</td>
+        <td>Backslash</td>
+    </tr>
+</table>
+<pre>
+str = "I like python. /nPython is a simple and easy language"
+print(str)
+</pre>
+
 <u>
 <h3>String Functions--</h3>
 </u>
