@@ -68,7 +68,7 @@ else:
     <li>Triple quoted string</li>
 </ul>
 <h3>Escape Sequence Character</h3>
-<p>Escape sequence character comprises of more than one characters but represents one character when used within the string.</p>
+<p>Sequence of character after backslash '\'. <br>Escape sequence character comprises of more than one characters but represents one character when used within the string.</p>
 <table>
     <tr>
         <th>ESC</th>
