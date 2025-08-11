@@ -58,3 +58,58 @@ elif(condition2):
 else:
     statement3
 </pre>
+
+<h2>What is Strings?</h2>
+<p>String is a data type in python. <br> String is a sequence of characters enclosed in quotes.</p>
+<b>There are three types of string</b>
+<ul>
+    <li>Single quoted string</li>
+    <li>Double quoted string</li>
+    <li>Triple quoted string</li>
+</ul>
+<h3>
+   <u>String Functions</u>
+</h3>
+<b>Length Function:</b>
+<p>This function return the length of the string.</p>
+<pre>
+a = "Amit"
+print(len(a))
+</pre>
+
+<b>Concatenation: </b>
+<p>Concatenation means adding two strings in a single string.</p>
+<pre>
+str1 = "Amit"
+str2 = "Singh"
+str3 = str1 + str2
+print(str3)
+</pre>
+
+<b>String Count: </b>
+<p>Counts the total number of occurence of any character.</p>
+<pre>
+str = "eurogames"
+print(str.count("e"))
+</pre>
+
+<b>String Capitalize: </b>
+<p>This function capitalize the first character of a given string.</p>
+<pre>
+str = "eurogames"
+print(str.capitalize())
+</pre>
+
+<b>String find(word): </b>
+<p>This function finds a word and returns the index of first occurence of that word in the string.</p>
+<pre>
+str = "eurogames"
+print(str.find("games"))
+</pre>
+
+<b>String Replace: </b>
+<p>This function replaces the old word with new word in the entire string.</p>
+<pre>
+str4 = "I like java."
+print(str4.replace("java", "python"))
+</pre>
