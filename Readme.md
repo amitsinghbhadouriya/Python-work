@@ -142,3 +142,17 @@ print(str.find("games"))
 str4 = "I like java."
 print(str4.replace("java", "python"))
 </pre>
+
+<h3>What is Indexing?</h3>
+<p>The index in a string starts from 0 to (length - 1) in python.</p>
+<pre>
+name = "python"
+print(name[3])
+</pre>
+
+<h3>What is string slicing?</h3>
+<p>A string in python can be sliced for getting a part of the string.</p>
+<pre>
+a = "I learn python"
+print(a[1:8])
+</pre>
