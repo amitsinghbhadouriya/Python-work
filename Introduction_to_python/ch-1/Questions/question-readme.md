@@ -17,3 +17,6 @@
 
 <h2>Question-6</h2>
 <p>Write a program to find the greatest of 3 numbers entered by the user.</p>
+
+<h2>Question-7</h2>
+<p>Write a program to check if a number is a multiple of 7 or not.</p>
