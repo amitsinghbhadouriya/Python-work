@@ -156,3 +156,19 @@ print(name[3])
 a = "I learn python"
 print(a[1:8])
 </pre>
+
+<h2>What is list?</h2>
+<ul>
+    <li>List are containers to store a set of values of any data type.</li>
+    <li>List are mutable, we can modify, replace and delete items.</li>
+    <li>List are ordered. It maintain the order of elements based on how they are added.</li>
+    <li>Accessing item in list can be done directly using their position.</li>
+</ul>
+<pre>
+list = ["Amit", 20, 98.4, "Gwalior", "Amity"]
+print(list)
+print(list[1])      # accessing list using index
+print(list[0:3])    # accessing list using slicing
+for item in list:   # accessing list using for loop
+    print(item)
+</pre>
