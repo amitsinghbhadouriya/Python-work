@@ -173,3 +173,44 @@ print(list[0:3])    # accessing list using slicing
 for item in list:   # accessing list using for loop
     print(item)
 </pre>
+
+<h3>List Methods</h3>
+<b>sort:</b>
+<p>It will sort the list in accending order.</p>
+<pre>
+list = [2,6,29,5,17,4]
+list.sort()
+print(list)
+</pre>
+
+<b>reverse:</b>
+<p>It will reverse the list. </p>
+<pre>
+list = [2,6,29,5,17,4]
+list.reverse()
+print(list)
+</pre>
+
+<b>append:</b>
+<p>It adds an element at the end of the list.</p>
+<pre>
+list = [2,6,29,5,17,4]
+list.append(19)
+print(list)
+</pre>
+
+<b>insert:</b>
+<p>It adds an element at a specific position.</p>
+<pre>
+list = [2,6,29,5,17,4]
+list.insert(1, 23)
+print(list)
+</pre>
+
+<b>extend:</b>
+<p>It adds multiple elements to the end of the list.</p>
+<pre>
+list = [2,6,29,5,17,4]
+list.extend([34, 15, 9])
+print(list)
+</pre>
