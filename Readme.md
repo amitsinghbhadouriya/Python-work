@@ -254,3 +254,27 @@ tup2 = (98.4, "Gwalior")
 tup3 = (tup1, tup2)
 print(tup3)
 </pre>
+
+<h3>Tuple Methods</h3>
+<b>concatenation:</b>
+<p>It adds the two tuple in a single tuple.</p>
+<pre>
+tup1 = (12, 45)
+tup2 = ("Hello", "world")
+tup3 = tup1 + tup2
+print(tup3)
+</pre>
+
+<b>count:</b>
+<p>It counts the number of times element occur in the tuple.</p>
+<pre>
+num = (1, 4, 5, 1, 8, 9, 1, 19, 32, 1)
+print(num.count(1))
+</pre>
+
+<b>index:</b>
+<p>It displays the index position the element placed in it.</p>
+<pre>
+num = (1, 4, 5, 1, 8, 9, 1, 19, 32, 1)
+print(num.index(5))
+</pre>
