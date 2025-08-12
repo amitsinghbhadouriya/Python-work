@@ -230,3 +230,27 @@ list = [2,6,29,5,17,4]
 list.remove(29)
 print(list)
 </pre>
+
+<h2>What is Tuple?</h2>
+<ul>
+    <li>A tuple is an immutable ordered collection of elements.</li>
+    <li>Tuple can hold element of different data types.</li>
+    <li>The main characteristics of tuples are being ordered , heterogeneous and immutable.</li>
+    <li>Tuples are similar to lists, but unlike lists, they cannot be changed after their creation </li>
+</ul>
+<pre>
+tuple = (24, 45, 8, 19)
+print(tuple)
+print(type(tuple))      # type of a tuple
+print(tuple[1])         # accessing tuple using indexing
+for item in tuple:      # accessing tuple using loop
+    print(item)
+</pre>
+
+<h3>Nested Tuple</h3>
+<pre>
+tup1 = ("Amit", 20)
+tup2 = (98.4, "Gwalior")
+tup3 = (tup1, tup2)
+print(tup3)
+</pre>
