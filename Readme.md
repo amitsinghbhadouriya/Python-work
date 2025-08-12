@@ -176,7 +176,7 @@ for item in list:   # accessing list using for loop
 
 <h3>List Methods</h3>
 <b>sort:</b>
-<p>It will sort the list in accending order.</p>
+<p>It will sort the list in ascending order.</p>
 <pre>
 list = [2,6,29,5,17,4]
 list.sort()
