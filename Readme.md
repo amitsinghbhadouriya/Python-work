@@ -167,6 +167,7 @@ print(a[1:8])
 <pre>
 list = ["Amit", 20, 98.4, "Gwalior", "Amity"]
 print(list)
+print(type(list))   # Check the type of list
 print(list[1])      # accessing list using index
 print(list[0:3])    # accessing list using slicing
 for item in list:   # accessing list using for loop
