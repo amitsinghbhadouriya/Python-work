@@ -15,3 +15,9 @@ print(tuple[1:len(tuple)])
 # access tuple using loop
 for item in tuple:
     print(item)
+    
+# nested tuple
+tup1 = ("Amit", 20)
+tup2 = (98.4, "Gwalior")
+tup3 = (tup1, tup2)
+print(tup3)
