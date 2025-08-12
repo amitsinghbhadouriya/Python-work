@@ -214,3 +214,19 @@ list = [2,6,29,5,17,4]
 list.extend([34, 15, 9])
 print(list)
 </pre>
+
+<b>pop:</b>
+<p>It removes the element at a specific index or the last element if no index is specified.</p>
+<pre>
+list = [2,6,29,5,17,4]
+list.pop(3)
+print(list)
+</pre>
+
+<b>remove: </b>
+<p>It removes the first occurrence of an element.</p>
+<pre>
+list = [2,6,29,5,17,4]
+list.remove(29)
+print(list)
+</pre>
