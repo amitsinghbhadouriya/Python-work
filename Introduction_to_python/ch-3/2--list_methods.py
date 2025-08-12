@@ -19,10 +19,14 @@ print(list)
 list.insert(3,1)
 print(list)
 
-# 5. pop
+# 5. extend
+list.extend([34, 15, 9])
+print(list)
+
+# 6. pop
 list.pop(1)
 print(list)
 
-# 6. remove
+# 7. remove
 list.remove(1)
 print(list)
