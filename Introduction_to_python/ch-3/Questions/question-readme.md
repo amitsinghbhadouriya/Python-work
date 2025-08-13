@@ -15,3 +15,7 @@
 "table" : "a piece of furniture", "list of facts and figures" <br>
 "cat" : "a small animal"
 </p>
+
+<h2>Question-4</h2>
+<p>You are given a list of subjects for students. Assume one classroom is required for 1 subject. How many classrooms are needed by all students.<br>
+"python", "java", "C++", "python", "javaScript", "java", "python", "java", "C++", "C"</p>
