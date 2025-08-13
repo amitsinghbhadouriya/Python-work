@@ -278,3 +278,82 @@ print(num.count(1))
 num = (1, 4, 5, 1, 8, 9, 1, 19, 32, 1)
 print(num.index(5))
 </pre>
+
+<h2>What is dictionary?</h2>
+<p>Dictionary is a collection of key value pairs.</p>
+<h3>Properties of dictionaries:</h3>
+<ul>
+    <li>It is unordered.</li>
+    <li>It is mutable.</li>
+    <li>It is indexed.</li>
+    <li>It can not contain duplicate keys.</li>
+</ul>
+
+<pre>
+dict = {
+    "name" : "Amit",
+    "age" : 19, 
+    "cgpa" : 8.9 
+}
+print(dict)
+print(dict["age"])
+print(type(dict))         # type of dictionaries
+</pre>
+
+<h3>Dictionary Methods</h3>
+<b>Items:</b>
+<p>It returns a list of (key, value) tuples.</p>
+<pre>
+dict = {
+    "name" : "Amit",
+    "age" : 19, 
+    "cgpa" : 8.9 
+}
+print(dict.items())
+</pre>
+
+<b>Keys:</b>
+<p>It returns a list containing dictionary's keys.</p>
+<pre>
+dict = {
+    "name" : "Amit",
+    "age" : 19, 
+    "cgpa" : 8.9 
+}
+print(dict.keys())
+</pre>
+
+<b>Update:</b>
+<p>It updates the dictionary with supplied key value pairs.</p>
+<pre>
+dict = {
+    "name" : "Amit",
+    "age" : 19, 
+    "cgpa" : 8.9 
+}
+dict.update({"course":"BCA"})
+print(dict)
+</pre>
+
+<b>Get:</b>
+<p>It returns the value of a specified keys.</p>
+<pre>
+dict = {
+    "name" : "Amit",
+    "age" : 19, 
+    "cgpa" : 8.9 
+}
+print(dict.get("age"))
+</pre>
+
+<b>Pop:</b>
+<p>It removes the key and value pairs from the dictionary.</p>
+<pre>
+dict = {
+    "name" : "Amit",
+    "age" : 19, 
+    "cgpa" : 8.9 
+}
+print(dict.pop("name"))
+print(dict)
+</pre>
