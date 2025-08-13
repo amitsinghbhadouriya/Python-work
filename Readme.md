@@ -377,3 +377,38 @@ dict = {
 print(dict.pop("name"))
 print(dict)
 </pre>
+
+<h2>What is set?</h2>
+<p>Set is a collection of non repetitive elements.</p>
+<h3>Properties of sets:</h3>
+<ul>
+    <li>Sets are unordered.</li>
+    <li>Sets are un-indexed.</li>
+    <li>There are no way to change items in sets.</li>
+    <li>Sets can not contain duplicate values.</li>
+</ul>
+<pre>
+a = {1,2,3,4}
+print(a)
+print(type(a))       # Accessing the type of a set
+</pre>
+
+<h3>Creating a set using a set function</h3>
+<pre>
+set1 = set()
+print(set1)
+set1 = set("hello world")
+print(set1)
+</pre>
+
+<h3>Creating a set with the help of a list</h3>
+<pre>
+set1 = set(["Hello", "World", "Hello"])
+print(set1)
+</pre>
+
+<h3>Creating a set with the help of a tuple</h3>
+<pre>
+tup = ("Hello", "World", "Hello")
+print(set(tup))
+</pre>
