@@ -11,12 +11,12 @@ s = set(s)
 s = s.union({12, 45})
 print("After union:", s)
 
-# 3. intersection (store result)
+# 3. intersection 
 s = s.intersection({9, 3})
 print("After intersection:", s)
 
 # 4. remove
-s.remove(3)  # removes element 3 if exists
+s.remove(3)  
 print("After remove:", s)
 
 # 5. clear
