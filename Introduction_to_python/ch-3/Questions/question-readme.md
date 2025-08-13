@@ -9,3 +9,9 @@
 
 (ii) Store the above values in a list and sort them from "A" to "D"
 </p>
+
+<h2>Question-3</h2>
+<p>Store following word meanings in a python dictionary:<br>
+"table" : "a piece of furniture", "list of facts and figures" <br>
+"cat" : "a small animal"
+</p>
