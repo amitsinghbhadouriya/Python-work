@@ -317,6 +317,7 @@ dict = {
     }
 }
 print(dict)
+print(dict["Subject-Grade"]["WDD"])     # Accessing value of key present in the dictionary of another dictionary
 </pre>
 
 <h3>Dictionary Methods</h3>
