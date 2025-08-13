@@ -19,3 +19,6 @@
 <h2>Question-4</h2>
 <p>You are given a list of subjects for students. Assume one classroom is required for 1 subject. How many classrooms are needed by all students.<br>
 "python", "java", "C++", "python", "javaScript", "java", "python", "java", "C++", "C"</p>
+
+<h2>Question-5</h2>
+<p>Write a program to enter marks of 3 subjects from the user and store them in a dictionary. Start with an empty dictionary and add one by one. Use subject name as key and marks as value.</p>
