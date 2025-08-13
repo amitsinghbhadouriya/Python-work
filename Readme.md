@@ -300,6 +300,25 @@ print(dict["age"])
 print(type(dict))         # type of dictionaries
 </pre>
 
+<h3>Nested Dictionaries</h3>
+<p>Nested dictionaries means creating a dictionary inside another dictionary.</p>
+<pre>
+dict = {
+    "name" : "Amit",
+    "age" : 19, 
+    "cgpa" : 8.9,
+    "Course" : "BCA",
+    "Subject-Grade" : {
+        "WDD" : "O",
+        "Maths" : "A+",
+        "COF" : "A+",
+        "C++" : "A",
+        "CO" : "B+"
+    }
+}
+print(dict)
+</pre>
+
 <h3>Dictionary Methods</h3>
 <b>Items:</b>
 <p>It returns a list of (key, value) tuples.</p>
