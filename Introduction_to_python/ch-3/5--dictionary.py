@@ -25,3 +25,6 @@ dict = {
     }
 }
 print(dict)
+
+# Accessing value of key present in the dictionary of another dictionary
+print(dict["Subject-Grade"]["WDD"])  
