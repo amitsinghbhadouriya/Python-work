@@ -412,3 +412,45 @@ print(set1)
 tup = ("Hello", "World", "Hello")
 print(set(tup))
 </pre>
+
+<h3>Set Methods:</h3>
+<b>length:</b>
+<p>This method counts the number of element present in the set.</p>
+<pre>
+s = [4,1,3,8,5,2,9,6]
+print(len(s)) 
+</pre>
+
+<b>union:</b>
+<p>It adds the element in the last of the set if the element is not present in the set.</p>
+<pre>
+s = [4,1,3,8,5,2,9,6]
+s = set(s)
+s = s.union({12, 45})
+print(s)
+</pre>
+
+<b>Intersection:</b>
+<p>It displays the elements that are present in both the set and the values given by the user.</p>
+<pre>
+s = [4,1,3,8,5,2,9,6]
+s = set(s)
+s = s.intersection({9, 3})
+print(s)
+</pre>
+
+<b>remove:</b>
+<p>It removes the specified element from the set.</p>
+<pre>
+s = [4,1,3,8,5,2,9,6]
+s.remove(3)  
+print(s)
+</pre>
+
+<b>clear:</b>
+<p>It removes all elements from the set, making it an empty set.</p>
+<pre>
+s = [4,1,3,8,5,2,9,6]
+s.clear()  
+print(s)
+</pre>
