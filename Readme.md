@@ -113,6 +113,19 @@ print("loop is ended.")
 <h3>Range:</h3>
 <p>Range functions returns a sequence of numbers, starting from 0 by default, and increments by 1(by default), and stops before a specified number.</p>
 <pre>
+seq = range(7)
+for i in seq:
+    print(i)
+</pre>    
+<pre>
+seq2 = range(1,5)
+for i in seq2:
+    print(i)
+</pre>
+<pre>
+seq3 = range(1,9,2)
+for i in seq3:
+    print(i)
 </pre>
 
 <h2>What is Strings?</h2>
