@@ -6,3 +6,7 @@ for i in range(0, a):
     
     
 # While Loop
+n = int(input("Enter the number: "))
+while(n < 5):
+    n = n + 1
+    print("Hello World")
