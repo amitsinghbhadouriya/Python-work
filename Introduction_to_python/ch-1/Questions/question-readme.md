@@ -23,3 +23,6 @@
 
 <h2>Question-8</h2>
 <p>Print numbers from 1 to 100.</p>
+
+<h2>Question-9</h2>
+<p>Print numbers from 100 to 1.</p>
