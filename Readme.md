@@ -59,6 +59,16 @@ else:
     statement3
 </pre>
 
+<h2>What is Loops?</h2>
+<p>Loops are used to repeat action efficiently.</p>
+<p>There are two types of loops in python:</p>
+<ul>
+    <li>For loop</li>
+    <li>While loop</li>
+<ul>
+<h3>For loop: </h3>
+<p>For loop is used to iterate over a sequence such as a list, tuple, string.<br>It allows to execute a block of code repeatedly.</p>
+
 <h2>What is Strings?</h2>
 <p>String is a data type in python. <br> String is a sequence of characters enclosed in quotes.</p>
 <b>There are three types of string</b>
