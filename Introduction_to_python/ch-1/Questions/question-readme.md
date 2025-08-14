@@ -30,3 +30,7 @@
 <h2>Question-10</h2>
 <p>Print the multiplication table of a number n.</p>
 
+<h2>Question-11</h2>
+<p>Print the element of the following list using a loop.<br>
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]</p>
+
