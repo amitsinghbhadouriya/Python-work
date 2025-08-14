@@ -110,6 +110,11 @@ while(i <= 8):
 print("loop is ended.")
 </pre>
 
+<h3>Range:</h3>
+<p>Range functions returns a sequence of numbers, starting from 0 by default, and increments by 1(by default), and stops before a specified number.</p>
+<pre>
+</pre>
+
 <h2>What is Strings?</h2>
 <p>String is a data type in python. <br> String is a sequence of characters enclosed in quotes.</p>
 <b>There are three types of string</b>
