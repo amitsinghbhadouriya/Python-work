@@ -26,3 +26,7 @@
 
 <h2>Question-9</h2>
 <p>Print numbers from 100 to 1.</p>
+
+<h2>Question-10</h2>
+<p>Print the multiplication table of a number n.</p>
+
