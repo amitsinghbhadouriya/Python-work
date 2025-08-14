@@ -20,3 +20,6 @@
 
 <h2>Question-7</h2>
 <p>Write a program to check if a number is a multiple of 7 or not.</p>
+
+<h2>Question-8</h2>
+<p>Print numbers from 1 to 100.</p>
