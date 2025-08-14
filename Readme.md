@@ -73,6 +73,14 @@ a = 4;
 for i in range(0, a):
     print(i)
 </pre>
+<h3>While loop: </h3>
+<p>While loop is used to execute a block of statements repeatedly until a given condition is satisfied. When the condition becomes false, the line immediately after the loop in the program is executed.</p>
+<pre>
+n = int(input("Enter the number: "))
+while(n < 5):
+    n = n + 1
+    print("Hello World")
+</pre>
 
 <h2>What is Strings?</h2>
 <p>String is a data type in python. <br> String is a sequence of characters enclosed in quotes.</p>
