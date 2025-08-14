@@ -136,6 +136,25 @@ for i in seq3:
     <li>Double quoted string</li>
     <li>Triple quoted string</li>
 </ul>
+
+<h3>Single quoted string:</h3>
+<pre>
+name = 'Amit'
+print(name)
+</pre>
+
+<h3>Double quoted string:</h3>
+<pre>
+name = "Amit"
+print(name)
+</pre>
+
+<h3>Triple quoted string:</h3>
+<pre>
+name = '''Amit'''
+print(name)
+</pre>
+
 <h3>Escape Sequence Character</h3>
 <p>Sequence of character after backslash '\'. <br>Escape sequence character comprises of more than one characters but represents one character when used within the string.</p>
 <table>
