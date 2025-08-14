@@ -5,6 +5,20 @@
 
 <h2>Use of Comments?</h2>
 <p>Comments are used to write something which to programmer does not want to execute.</p>
+<p>There are two types of comments in python.</p>
+<ul>
+    <li>Single line comment</li>
+    <li>Multi line comment</li>
+</ul>
+<h3>Single line comment:</h3>
+<pre>
+# This is a single line comment
+</pre>
+<h3>Multi line comment</h3>
+<pre>
+''' This is a
+    multi line comment '''
+</pre>
 
 <h2>What is Variable?</h2>
 <p>A variable is a name given to a memory location in a program.</p>
