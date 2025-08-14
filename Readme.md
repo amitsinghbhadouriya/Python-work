@@ -85,9 +85,30 @@ while(n < 5):
 
 <h3>Break:</h3>
 <p>It is used to terminate the loop when encountered.</p>
+<pre>
+i = 1
+while(i <= 8):
+    print(i)
+    if(i==4):
+        break
+    i += 1
+    
+print("loop is ended.")
+</pre>
 
 <h3>Continue:</h3>
 <p>It is used to terminates execution in the current iteration and continues execution of the loop with the next iteration.</p>
+<pre>
+i = 1
+while(i <= 8):
+    if(i==4):
+        i += 1
+        continue
+    print(i)
+    i += 1
+    
+print("loop is ended.")
+</pre>
 
 <h2>What is Strings?</h2>
 <p>String is a data type in python. <br> String is a sequence of characters enclosed in quotes.</p>
