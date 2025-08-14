@@ -65,9 +65,14 @@ else:
 <ul>
     <li>For loop</li>
     <li>While loop</li>
-<ul>
+</ul>
 <h3>For loop: </h3>
 <p>For loop is used to iterate over a sequence such as a list, tuple, string.<br>It allows to execute a block of code repeatedly.</p>
+<pre>
+a = 4;
+for i in range(0, a):
+    print(i)
+</pre>
 
 <h2>What is Strings?</h2>
 <p>String is a data type in python. <br> String is a sequence of characters enclosed in quotes.</p>
