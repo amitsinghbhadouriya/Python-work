@@ -31,3 +31,19 @@ while(i <= 8):
     i += 1
     
 print("loop is ended.")
+
+
+# Range
+seq = range(7)
+for i in seq:
+    print(i)
+    
+print("\n")
+seq2 = range(1,5)
+for i in seq2:
+    print(i)
+    
+print("\n")
+seq3 = range(1,9,2)
+for i in seq3:
+    print(i)
