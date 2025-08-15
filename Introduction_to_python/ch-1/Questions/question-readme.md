@@ -34,3 +34,6 @@
 <p>Print the element of the following list using a loop.<br>
 [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]</p>
 
+<h2>Question-12</h2>
+<p>Write a program to find the sum of first n natural number.</p>
+
