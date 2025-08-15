@@ -37,3 +37,5 @@
 <h2>Question-12</h2>
 <p>Write a program to find the sum of first n natural number.</p>
 
+<h2>Question-14</h2>
+<p>Write a program to find the factorial of first n natural number.</p>
