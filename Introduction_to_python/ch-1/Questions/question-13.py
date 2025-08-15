@@ -1,0 +1,1 @@
+# Write a program to find the factorial of first n natural number.
