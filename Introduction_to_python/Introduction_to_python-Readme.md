@@ -54,9 +54,8 @@
 
 <h2>Keywords in python</h2>
 <p>Reserved words in python is called keywords.</p>
-<p>like :-
+<p>like :-</p>
 <pre>and, del, else , as, assert , break , etc.</pre>
-</p>
 
 <h2>Identifiers in python</h2>
 <p>Identifiers are the names used to identify variables, functions, classes, objects, or modules in a program.</p>
@@ -69,23 +68,30 @@
     <li>Case-sensitive (age and Age are different)</li>
     <li>Cannot be a Python keyword (like if, for, class, etc.)</li>
 </ul>
-<p>Valid Identifiers :-
+<p>Valid Identifiers :-</p>
 <pre>name
 _age
 total_marks
 student1
 myFunction</pre>
-</p>
-<p>Invalid Identifiers :-
+<p>Invalid Identifiers :-</p>
 <pre>1name      # starts with a number
 total-marks  # contains hyphen
 class       # keyword
 my name     # space not allowed
 </pre>
-</p>
+
+<h2>Statements</h2>
+<p>Statements are instructions written in a program that tell Python what action to perform.</p>
+
+<h2>Indentation</h2>
+<p>Python uses indentation instead of braces {}<br/>Indentation defines the block of statements</p>
 
 <h2>What is Variable?</h2>
 <p>A variable is a name given to a memory location in a program.</p>
+<pre>x = 10
+name = "Amit"
+</pre>
 
 <h2>What is Data Types?</h2>
 <p>A data type defines what kind of value a variable holds and what operations can be performed on it.</p>
