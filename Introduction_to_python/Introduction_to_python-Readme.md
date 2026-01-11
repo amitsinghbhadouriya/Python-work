@@ -1,7 +1,18 @@
 <h1>Introduction To Python</h1>
 <h2>What is Python?</h2>
 <p>Python is a simple and easy to understand language which feels like reading simple english. This pseudo code nature of python makes it easy to learn and understandable by beginners.</p>
-<p>Python is a Case-Sensitive language.</p>
+
+<h2>Features of Python</h2>
+<ul>
+    <li>Easy to learn and use</li>
+    <li>Interpreted language</li>
+    <li>High level language</li>
+    <li>Case-Sensitive language</li>
+    <li>Platform independent</li>
+    <li>Open source and free</li>
+    <li>Supports multi-programming paradigms</li>
+    <li>Rich frameworks and libraries</li>
+</ul>
 
 <h2>Use of Comments?</h2>
 <p>Comments are used to write something which to programmer does not want to execute.</p>
