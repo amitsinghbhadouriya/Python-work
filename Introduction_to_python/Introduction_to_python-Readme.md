@@ -35,23 +35,54 @@
     <li>Used in research, calculations, and simulations</li>
 </ul>
 
-
-<h2>Use of Comments?</h2>
+<h2>Comments?</h2>
 <p>Comments are used to write something which to programmer does not want to execute.</p>
 <p>There are two types of comments in python.</p>
 <ul>
     <li>Single line comment</li>
     <li>Multi line comment</li>
 </ul>
-<h3>Single line comment:</h3>
+<h4>Single line comment :-</h4>
 <pre>
 # This is a single line comment
 </pre>
-<h3>Multi line comment</h3>
+<h4>Multi line comment :-</h4>
 <pre>
 ''' This is a
     multi line comment '''
 </pre>
+
+<h2>Keywords in python</h2>
+<p>Reserved words in python is called keywords.</p>
+<p>like :-
+<pre>and, del, else , as, assert , break , etc.</pre>
+</p>
+
+<h2>Identifiers in python</h2>
+<p>Identifiers are the names used to identify variables, functions, classes, objects, or modules in a program.</p>
+<h3>Rules for Identifiers:-</h3>
+<ul>
+    <li>Must start with a letter (a–z or A–Z) or an underscore (_)</li>
+    <li>Cannot start with a number</li>
+    <li>Can contain letters, digits, and underscores only</li>
+    <li>No spaces allowed</li>
+    <li>Case-sensitive (age and Age are different)</li>
+    <li>Cannot be a Python keyword (like if, for, class, etc.)</li>
+</ul>
+<p>Valid Identifiers :-
+<pre>name
+_age
+total_marks
+student1
+myFunction</pre>
+</p>
+<p>Invalid Identifiers :-
+<pre>1name      # starts with a number
+total-marks  # contains hyphen
+class       # keyword
+my name     # space not allowed
+</pre>
+</p>
 
 <h2>What is Variable?</h2>
 <p>A variable is a name given to a memory location in a program.</p>
@@ -67,9 +98,7 @@
     <li>None</li>
 </ul>
 
-<h2>Keywords in python</h2>
-<p>Reserved words in python is called keywords.</p>
-<p>like :- and, del, else , as, assert , break , etc.</p>
+
 
 <h2>What is tokens?</h2>
 <p>Tokens are the smallest building blocks of the language — the pieces that the Python interpreter understands when reading and executing your code.
