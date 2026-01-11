@@ -744,3 +744,13 @@ greet("Amit")
     details(name="Amit", age=20)
     </pre>
 </ol>
+<h3>Anonymous Function</h3>
+<p>An anonymous function is a function without a name.
+In Python, anonymous functions are created using the lambda keyword.</p>
+<b>Syntax :-</b>
+<pre>lambda arguments: expression</pre>
+<p>Example:</p>
+<pre>
+square = lambda x: x * x
+print(square(5))
+</pre>
