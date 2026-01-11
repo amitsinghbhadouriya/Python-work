@@ -743,3 +743,4 @@ greet("Amit")
         print(info)
     details(name="Amit", age=20)
     </pre>
+</ol>
