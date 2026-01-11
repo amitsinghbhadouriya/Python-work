@@ -702,3 +702,44 @@ def add(a, b):
     print(a + b)
 add(5, 3)
 </pre>
+<h4>Types of Arguments :-</h4>
+<ul>
+    <li>Positional Arguments</li>
+    <li>Keyword Arguments</li>
+    <li>Default Arguments</li>
+    <li>Variable-Length Arguments</li>
+</ul>
+<h4>Positional Arguments :</h4>
+<p>Passed in the same order as parameters</p>
+<pre>
+def add(a, b):
+    print(a + b)
+add(5, 3)
+</pre>
+<h4>Keyword Arguments :</h4>
+<p>Passed using parameter names</p>
+<pre>
+add(b=3, a=5)
+</pre>
+<h4>Default Arguments :</h4>
+<p>Provide default values to parameters</p>
+<pre>
+def greet(name, msg="Hello"):
+    print(msg, name)
+greet("Amit")
+</pre>
+<h4>Variable-Length Arguments :</h4>
+<p>Used when the number of arguments is not fixed.</p>
+<ol>
+    <li>*args (Non-keyword arguments) -</li>
+    <pre>
+    def total(*numbers):
+        print(sum(numbers))
+    total(1, 2, 3, 4)
+    </pre>
+    <li>**kwargs (Keyword arguments) -</li>
+    <pre>
+    def details(**info):
+        print(info)
+    details(name="Amit", age=20)
+    </pre>
