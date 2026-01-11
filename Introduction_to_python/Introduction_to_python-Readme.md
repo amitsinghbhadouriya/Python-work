@@ -14,6 +14,28 @@
     <li>Rich frameworks and libraries</li>
 </ul>
 
+<h2>Application of Python</h2>
+<ul>
+    <li>Web development</li>
+    <li>Data Science and Data analysis</li>
+    <li>Artificial Intelligence and Machine Learning</li>
+    <li>Automation and Scripting</li>
+    <li>Game Development</li>
+    <li>Cyber Security and Ethical Hacking</li>
+</ul>
+
+<h2>Use of Python</h2>
+<ul>
+    <li>Creating websites and web applications</li>
+    <li>Used in statistics and business analysis</li>
+    <li>Building intelligent systems like chatbots</li>
+    <li>Automating repetitive tasks</li>
+    <li>Used for testing and debugging</li>
+    <li>Creating games using libraries like Pygame</li>
+    <li>Used in research, calculations, and simulations</li>
+</ul>
+
+
 <h2>Use of Comments?</h2>
 <p>Comments are used to write something which to programmer does not want to execute.</p>
 <p>There are two types of comments in python.</p>
