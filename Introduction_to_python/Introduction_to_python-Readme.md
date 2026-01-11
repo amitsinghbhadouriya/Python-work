@@ -156,8 +156,11 @@ d = bool(1)       # True
     <li>Logical operators :- and, or, not</li>
 </ul>
 
+<h2>Namespaces</h2>
+<p>A namespace is a collection of names mapped to objects in Python. Python uses built-in, global, local, and enclosing namespaces to avoid name conflicts.</p>
+
 <h2>Conditional Statements</h2>
-<p>Conditional statements are a multiway decision taken by our program due to certain conditions in our code.</p>
+<p>Conditional statements are a multi-way decision taken by our program due to certain conditions in our code.</p>
 <h4>Syntax:</h4>
 <pre>
 if(condition1):
