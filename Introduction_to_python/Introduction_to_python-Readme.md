@@ -104,8 +104,6 @@ name = "Amit"
     <li>None</li>
 </ul>
 
-
-
 <h2>What is tokens?</h2>
 <p>Tokens are the smallest building blocks of the language — the pieces that the Python interpreter understands when reading and executing your code.
 </p>
@@ -115,6 +113,35 @@ name = "Amit"
 <pre>
 a = 32 
 type(a)
+</pre>
+
+<h2>Type Conversion</h2>
+<p>Type conversion means changing one data type into another.</p>
+<p>Types of Type Conversion</p>
+<ul>
+    <li>Implicit Type Conversion</li>
+    <li>Explicit Type Conversion</li>
+</ul>
+<h4>Implicit Type Conversion</h4>
+<ul>
+    <li>Done automatically by Python</li>
+    <li>Converts smaller data type to larger ones</li>
+</ul>
+<pre>
+x = 10      # int
+y = 2.5     # float
+z = x + y  # result is float
+</pre>
+<h4>Explicit Type Conversion (Type Casting)</h4>
+<ul>
+    <li>Done manually by the programmer</li>
+    <li>Uses built-in functions</li>
+</ul>
+<pre>
+a = int(3.8)      # 3
+b = float(5)      # 5.0
+c = str(100)      # "100"
+d = bool(1)       # True
 </pre>
 
 <h2>Input function</h2>
