@@ -267,7 +267,9 @@ name = '''Amit'''
 print(name)
 </pre>
 
+<u>
 <h3>Escape Sequence Character</h3>
+</u>
 <p>Sequence of character after backslash '\'. <br>Escape sequence character comprises of more than one characters but represents one character when used within the string.</p>
 <table>
     <tr>
@@ -296,8 +298,8 @@ str = "I like python. /nPython is a simple and easy language"
 print(str)
 </pre>
 
-<u>
-<h3>String Functions--</h3>
+
+<h3>String Functions :-</h3>
 </u>
 <b>Length Function:</b>
 <p>This function return the length of the string.</p>
@@ -653,4 +655,50 @@ print(s)
 s = [4,1,3,8,5,2,9,6]
 s.clear()  
 print(s)
+</pre>
+
+<h2>Functions</h2>
+<p>A function is a block of reusable code that performs a specific task.</br>It helps in code reusability, readability, and modularity.</p>
+<h3>Defining a function :-</h3>
+<p>A function is defined using the def keyword.</p>
+<pre>
+def function_name(parameters):
+    statements
+    return value
+</pre>
+<p>Example :</p>
+<pre>
+def add(a, b):
+    return a + b
+</pre>
+<h3>Calling a function :-</h3>
+<p>Calling a function means executing the function to perform the task defined inside it.</p>
+<pre>
+function_name(arguments)
+</pre>
+<p>Example :</p>
+<pre>
+result = add(5, 3)
+print(result)
+</pre>
+<h3>Types of Function</h3>
+<ul>
+    <li>Built-in Functions</li>
+    <li>User-Defined Functions</li>
+</ul>
+<h4>Built-in Functions :-</h4>
+<p>Already provided by Python.</p>
+<pre>print(), len(), type(), input()</pre>
+<h4>Used-Defined Functions :-</h4>
+<p>Created by the programmer.</p>
+<pre>
+def greet():
+    print("Hello")
+</pre>
+<h3>Function Arguments</h3>
+<p>Function arguments are the values passed to a function when it is called.<br>They allow functions to work with different data.</p>
+<pre>
+def add(a, b):
+    print(a + b)
+add(5, 3)
 </pre>
