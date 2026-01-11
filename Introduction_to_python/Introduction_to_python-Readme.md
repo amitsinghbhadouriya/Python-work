@@ -117,12 +117,12 @@ type(a)
 
 <h2>Type Conversion</h2>
 <p>Type conversion means changing one data type into another.</p>
-<p>Types of Type Conversion</p>
+<h3>Types of Type Conversion</h3>
 <ul>
     <li>Implicit Type Conversion</li>
     <li>Explicit Type Conversion</li>
 </ul>
-<h4>Implicit Type Conversion</h4>
+<h4>Implicit Type Conversion :-</h4>
 <ul>
     <li>Done automatically by Python</li>
     <li>Converts smaller data type to larger ones</li>
@@ -132,7 +132,7 @@ x = 10      # int
 y = 2.5     # float
 z = x + y  # result is float
 </pre>
-<h4>Explicit Type Conversion (Type Casting)</h4>
+<h4>Explicit Type Conversion (Type Casting) :-</h4>
 <ul>
     <li>Done manually by the programmer</li>
     <li>Uses built-in functions</li>
