@@ -754,3 +754,4 @@ In Python, anonymous functions are created using the lambda keyword.</p>
 square = lambda x: x * x
 print(square(5))
 </pre>
+<h2>Recursion</h2>
