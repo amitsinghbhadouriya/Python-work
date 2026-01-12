@@ -755,3 +755,7 @@ square = lambda x: x * x
 print(square(5))
 </pre>
 <h2>Recursion</h2>
+<h2>Pass Statement</h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
