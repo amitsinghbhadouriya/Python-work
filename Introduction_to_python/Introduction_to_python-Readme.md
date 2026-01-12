@@ -758,4 +758,4 @@ print(square(5))
 <h2>Pass Statement</h2>
 <h2>Global variable</h2>
 <h2>Local variable</h2>
-<h2></h2>
+<h2>Non local variable</h2>
