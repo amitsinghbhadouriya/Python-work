@@ -756,6 +756,15 @@ print(square(5))
 </pre>
 <h2>Recursion</h2>
 <p>Recursion is a process in which a function calls itself to solve a problem.</p>
+<pre>
+def factorial(n):
+    if n == 0 or n == 1:      # base case
+        return 1
+    else:
+        return n * factorial(n - 1)  # recursive call
+
+print(factorial(5))
+</pre>
 <h2>Pass Statement</h2>
 <h2>Global variable</h2>
 <h2>Local variable</h2>
