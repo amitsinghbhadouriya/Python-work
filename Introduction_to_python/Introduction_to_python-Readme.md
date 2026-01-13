@@ -755,6 +755,7 @@ square = lambda x: x * x
 print(square(5))
 </pre>
 <h2>Recursion</h2>
+<p>Recursion is a process in which a function calls itself to solve a problem.</p>
 <h2>Pass Statement</h2>
 <h2>Global variable</h2>
 <h2>Local variable</h2>
