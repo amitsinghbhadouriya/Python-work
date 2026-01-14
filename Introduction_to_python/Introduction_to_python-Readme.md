@@ -795,4 +795,11 @@ show()
 print(x)
 </pre>
 <h2>Local variable</h2>
+<p>A local variable is a variable that is declared inside a function and can be used only within that function.</p>
+<pre>
+def show():
+    x = 10   # local variable
+    print(x)
+show()
+</pre>
 <h2>Non local variable</h2>
