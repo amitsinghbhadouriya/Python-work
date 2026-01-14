@@ -772,6 +772,13 @@ def factorial(n):
 print(factorial(5))
 </pre>
 <h2>Pass Statement</h2>
+<p>The pass statement is a null statement in Python.<br>It does nothing and is used when a statement is syntactically required but no action is needed.</p>
+<h4>Why <u>Pass</u> is used :</hr>
+<ul>
+    <li>To create empty blocks of code</li>
+    <li>To avoid errors when code is incomplete</li>
+    <li>Used as a placeholder</li>
+</ul>
 <h2>Global variable</h2>
 <h2>Local variable</h2>
 <h2>Non local variable</h2>
