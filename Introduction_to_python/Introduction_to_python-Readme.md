@@ -756,6 +756,12 @@ print(square(5))
 </pre>
 <h2>Recursion</h2>
 <p>Recursion is a process in which a function calls itself to solve a problem.</p>
+<h4>Parts of Recursive Function :</h4>
+<ul>
+    <li>Base Case -> condition to stop recursion</li>
+    <li>Recursive Case -> function calls itself</li>
+</ul>
+<p>Example:-</p>
 <pre>
 def factorial(n):
     if n == 0 or n == 1:      # base case
