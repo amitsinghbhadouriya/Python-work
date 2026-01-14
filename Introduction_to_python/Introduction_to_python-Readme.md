@@ -779,6 +779,11 @@ print(factorial(5))
     <li>To avoid errors when code is incomplete</li>
     <li>Used as a placeholder</li>
 </ul>
+<p>Example:-</p>
+<pre>
+def my_function():
+    pass
+</pre>
 <h2>Global variable</h2>
 <h2>Local variable</h2>
 <h2>Non local variable</h2>
