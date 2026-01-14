@@ -809,3 +809,17 @@ show()
     <li>To modify a variable from the outer function</li>
     <li>Used in nested functions</li>
 </ul>
+<pre>
+def outer():
+    x = 10   # nonlocal variable
+
+    def inner():
+        nonlocal x
+        x = x + 5
+        print("Inner:", x)
+
+    inner()
+    print("Outer:", x)
+
+outer()
+</pre>
