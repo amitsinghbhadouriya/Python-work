@@ -803,3 +803,9 @@ def show():
 show()
 </pre>
 <h2>Non local variable</h2>
+<p>A nonlocal variable is a variable that is defined in an enclosing (outer) function and is accessed or modified inside a nested (inner) function.<br>-> It is neither local nor global.</p>
+<h4>Why <u>nonlocal</u> is used :</h4>
+<ul>
+    <li>To modify a variable from the outer function</li>
+    <li>Used in nested functions</li>
+</ul>
