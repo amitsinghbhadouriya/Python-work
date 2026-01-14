@@ -6,3 +6,18 @@ def show():
 
 show()
 print(x)
+
+
+
+def outer():
+    x = 10   # nonlocal variable
+
+    def inner():
+        nonlocal x
+        x = x + 5
+        print("Inner:", x)
+
+    inner()
+    print("Outer:", x)
+
+outer()
