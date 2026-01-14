@@ -785,5 +785,14 @@ def my_function():
     pass
 </pre>
 <h2>Global variable</h2>
+<p>A global variable is a variable that is defined outside all functions and can be accessed anywhere in the program.</p>
+<pre>
+x = 10   # global variable
+def show():
+    print(x)
+
+show()
+print(x)
+</pre>
 <h2>Local variable</h2>
 <h2>Non local variable</h2>
