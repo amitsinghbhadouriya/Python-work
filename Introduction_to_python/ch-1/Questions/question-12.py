@@ -8,5 +8,6 @@ i = 0
 while i < len(nums):
     if(nums[i] == x):
         print("Element found at index: ", i)
-        
+    else:
+        print("No element found")
     i = i + 1
