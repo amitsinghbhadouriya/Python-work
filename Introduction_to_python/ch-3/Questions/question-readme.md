@@ -22,3 +22,6 @@
 
 <h2>Question-5</h2>
 <p>Write a program to enter marks of 3 subjects from the user and store them in a dictionary. Start with an empty dictionary and add one by one. Use subject name as key and marks as value.</p>
+
+<h2>Question-6</h2>
+<p>Figure out a way to store 9 and 9.0 as separate values in the set.<br>(You can take help of built-in data types)
