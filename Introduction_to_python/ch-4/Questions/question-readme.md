@@ -14,3 +14,6 @@
 
 <h2>Question-5</h2>
 <p>Write a recursive function to calculate the sum of first n natural numbers.</p>
+
+<h2>Question-6</h2>
+<p>Write a recursive function to print all elements in a list.(use list and index as a parameters)</p>
