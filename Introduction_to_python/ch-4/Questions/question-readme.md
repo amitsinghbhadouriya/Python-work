@@ -11,3 +11,6 @@
 
 <h2>Question-4</h2>
 <p>Write a function to convert USD to INR.</p>
+
+<h2>Question-5</h2>
+<p>Write a recursive function to calculate the sum of first n natural numbers.</p>
