@@ -8,3 +8,6 @@
 
 <h2>Question-3</h2>
 <p>Write a function to find the factorial of n.<br>(n is the parameter)</p>
+
+<h2>Question-4</h2>
+<p>Write a function to convert USD to INR.</p>
