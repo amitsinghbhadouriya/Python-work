@@ -5,3 +5,6 @@
 
 <h2>Question-2</h2>
 <p>Write a function that replace all occurrence of "Python" with "Java".</p>
+
+<h2>Question-2</h2>
+<p>Search if the word "learning" exists in the file or not.</p>
