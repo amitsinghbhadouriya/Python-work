@@ -8,3 +8,6 @@
 
 <h2>Question-3</h2>
 <p>Search if the word "learning" exists in the file or not.</p>
+
+<h2>Question-4</h2>
+<p>Write a function to find in which line of the file does the word "learning" occur first. Print -1 if word not found</p>
