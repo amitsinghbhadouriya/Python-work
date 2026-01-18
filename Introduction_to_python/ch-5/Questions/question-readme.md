@@ -11,3 +11,6 @@
 
 <h2>Question-4</h2>
 <p>Write a function to find in which line of the file does the word "learning" occur first. Print -1 if word not found</p>
+
+<h2>Question-5</h2>
+<p>From a file containing numbers separated by comma, print the count of even numbers.</p>
