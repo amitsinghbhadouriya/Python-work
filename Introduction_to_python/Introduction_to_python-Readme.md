@@ -823,3 +823,18 @@ def outer():
 
 outer()
 </pre>
+
+<h2>File Handling</h2>
+<p>File handling is the process of creating, opening, reading, writing, and closing files stored on secondary storage using a program.<br>Python provides built-in functions to handle files easily.</p>
+<h3>Types of Files :</h3>
+<p>Python mainly works with two types of files.</p>
+<h4>1. Text files</h4>
+<ul>
+    <li>Store data in readable text form</li>
+    <li>Ex:- .txt, .csv, .py</li>
+</ul>
+<h4>2. Binary files</h4>
+<ul>
+    <li>Store data in binary (0 and 1) format</li>
+    <li>Example: .jpg, .png, .pdf, .mp3</li>
+</ul>
