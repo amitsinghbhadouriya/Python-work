@@ -844,6 +844,10 @@ outer()
 <pre>
 file_object = open("filename", "mode")
 </pre>
+<p>Ex:</p>
+<pre>
+file = open("example.txt", "r")
+</pre>
 <h4>File modes :-</h4>
 <p>File mode defines the purpose for which a file is opened.</p>
 <table>
@@ -890,5 +894,34 @@ file_object = open("filename", "mode")
     <tr>
         <td>ab</td>
         <td>Append binary</td>
+    </tr>
+</table>
+<h3>Reading From a File :</h3>
+<pre>
+file = open("example.txt", "r")
+content = file.read()
+print(content)
+file.close()
+</pre>
+<table>
+    <tr>
+        <th>Method</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>read()</td>
+        <td>Reads entire file</td>
+    </tr>
+    <tr>
+        <td>read(n)</td>
+        <td>Reads n characters</td>
+    </tr>
+    <tr>
+        <td>readline()</td>
+        <td>Reads one line</td>
+    </tr>
+    <tr>
+        <td>readlines()</td>
+        <td>Reads all lines as a list</td>
     </tr>
 </table>
