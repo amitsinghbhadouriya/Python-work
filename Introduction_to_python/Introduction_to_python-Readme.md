@@ -838,3 +838,57 @@ outer()
     <li>Store data in binary (0 and 1) format</li>
     <li>Example: .jpg, .png, .pdf, .mp3</li>
 </ul>
+<h3>Opening a File :</h3>
+<p>A file is opened using the open() function.</p>
+<p>Syntax :</p>
+<pre>
+file_object = open("filename", "mode")
+</pre>
+<h4>File modes :-</h4>
+<p>File mode defines the purpose for which a file is opened.</p>
+<table>
+    <tr>
+        <th>Mode</th>
+        <th>Meaning</th>
+    </tr>
+    <tr>
+        <td>r</td>
+        <td>Read only (default)</td>
+    </tr>
+    <tr>
+        <td>w</td>
+        <td>Write (Creates and overwrites file)</td>
+    </tr>
+    <tr>
+        <td>a</td>
+        <td>Append data</td>
+    </tr>
+    <tr>
+        <td>x</td>
+        <td>Create new file</td>
+    </tr>
+    <tr>
+        <td>r+</td>
+        <td>Read and write</td>
+    </tr>
+    <tr>
+        <td>w+</td>
+        <td>Write and read</td>
+    </tr>
+    <tr>
+        <td>a+</td>
+        <td>Append and read</td>
+    </tr>
+    <tr>
+        <td>rb</td>
+        <td>Read binary</td>
+    </tr>
+    <tr>
+        <td>wb</td>
+        <td>Write binary</td>
+    </tr>
+    <tr>
+        <td>ab</td>
+        <td>Append binary</td>
+    </tr>
+</table>
