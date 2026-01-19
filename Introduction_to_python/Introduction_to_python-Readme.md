@@ -855,6 +855,41 @@ else:
 finally:
     print("Program ended")
 </pre>
+<h3>Common Types of Exceptions :</h3>
+<table>
+    <tr>
+        <th>Exception</th>
+        <th>Cause</th>
+    </tr>
+    <tr>
+        <td>ZeroDivisionError</td>
+        <td>Division by zero</td>
+    </tr>
+    <tr>
+        <td>FileNotFoundError</td>
+        <td>File does not exist</td>
+    </tr>
+    <tr>
+        <td>ValueError</td>
+        <td>Wrong data type</td>
+    </tr>
+    <tr>
+        <td>TypeError</td>
+        <td>Unsupported operation between types</td>
+    </tr>
+    <tr>
+        <td>IndexError</td>
+        <td>Index out of range</td>
+    </tr>
+    <tr>
+        <td>KeyError</td>
+        <td>Dictionary key not found</td>
+    </tr>
+    <tr>
+        <td>NameError</td>
+        <td>Variable not defined</td>
+    </tr>
+</table>
 
 <h2>File Handling</h2>
 <p>File handling is the process of creating, opening, reading, writing, and closing files stored on secondary storage using a program.<br>Python provides built-in functions to handle files easily.</p>
