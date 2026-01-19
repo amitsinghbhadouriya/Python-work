@@ -834,14 +834,14 @@ outer()
 <pre>
 x = 5 / 0  # ZeroDivisionError
 </pre>
-<h3>Advantages :</h3>
+<h3>Advantages </h3>
 <ul>
     <li>Prevents program crash</li>
     <li>Provides user-friendly error messages</li>
     <li>Helps in debugging</li>
     <li>Allows controlled execution</li>
 </ul>
-<h3>try, except, else, finally blocks :</h3>
+<h3>try, except, else, finally blocks </h3>
 <ul>
     <li><b>Try :</b> The try block is used to wrap the code that might cause an exception.</li>
     <li><b>Except :</b> Handles exceptions raised in the try block..</li>
@@ -897,14 +897,14 @@ finally:
         <td>Variable not defined</td>
     </tr>
 </table>
-<h3>Raising Exceptions :</h3>
+<h3>Raising Exceptions </h3>
 <p>We can manually raise an exception using raise.</p>
 <pre>
 x = -5
 if x < 0:
     raise ValueError("x cannot be negative")
 </pre>
-<h3>Multiple Exceptions :</h3>
+<h3>Multiple Exceptions </h3>
 <p>Handle multiple exceptions in one except block using a tuple.</p>
 <pre>
 try:
@@ -928,20 +928,20 @@ except (ValueError, ZeroDivisionError):
     <li>Store data in binary (0 and 1) format</li>
     <li>Example: .jpg, .png, .pdf, .mp3</li>
 </ul>
-<h3>Advantages :</h3>
+<h3>Advantages </h3>
 <ul>
     <li>Permanent data storage</li>
     <li>Data sharing</li>
     <li>Easy backup</li>
     <li>Large data handling</li>
 </ul>
-<h3>Disadvantages :</h3>
+<h3>Disadvantages </h3>
 <ul>
     <li>Slower than memory</li>
     <li>Risk to data corruption</li>
     <li>Needs proper error handling</li>
 </ul>
-<h3>Opening a File :</h3>
+<h3>Opening a File </h3>
 <p>A file is opened using the open() function.</p>
 <p>Syntax :</p>
 <pre>
@@ -999,7 +999,7 @@ file = open("example.txt", "r")
         <td>Append binary</td>
     </tr>
 </table>
-<h3>Reading From a File :</h3>
+<h3>Reading From a File </h3>
 <pre>
 file = open("example.txt", "r")
 content = file.read()
@@ -1028,7 +1028,7 @@ file.close()
         <td>Reads all lines as a list</td>
     </tr>
 </table>
-<h3>Writing to a file :</h3>
+<h3>Writing to a file </h3>
 <pre>
 file = open("example.txt", "w")
 file.write("Hello Python")
@@ -1049,13 +1049,13 @@ file.close()
     </tr>
 </table>
 <p>Write() does not add new line automatically</p>
-<h3>Closing a file :</h3>
+<h3>Closing a file </h3>
 <p>Closing a file means releasing the file resource after performing read or write operations.</p>
 <p>Syntax :</p>
 <pre>
 file.close()
 </pre>
-<h3>With statement :</h3>
+<h3>With statement </h3>
 <p>The with statement is used for resource management, especially file handling.<br>
 It ensures that a file is automatically closed after its block of code is executed, even if an error occurs.</p>
 <p>Syntax :</p>
@@ -1068,7 +1068,7 @@ with open("data.txt", "r") as file:
     content = file.read()
     print(content)
 </pre>
-<h3>Exception handling in File handling :</h3>
+<h3>Exception handling in File handling </h3>
 <p>Used to avoid runtime errors.</p>
 <pre>
 try:
