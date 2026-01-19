@@ -952,3 +952,16 @@ file.close()
 <pre>
 file.close()
 </pre>
+<h3>With statement :</h3>
+<p>The with statement is used for resource management, especially file handling.<br>
+It ensures that a file is automatically closed after its block of code is executed, even if an error occurs.</p>
+<p>Syntax :</p>
+<pre>
+with open("filename", "mode") as file_variable:
+</pre>
+<p>Ex :</p>
+<pre>
+with open("data.txt", "r") as file:
+    content = file.read()
+    print(content)
+</pre>
