@@ -824,6 +824,38 @@ def outer():
 outer()
 </pre>
 
+<h2>Exception Handling</h2>
+<p>Exception handling is a way to handle runtime errors in a program so that the program does not crash. <br>Python provides try, except, else, finally blocks to handle exceptions.</p>
+<h3>What is an Exception?</h3>
+<ul>
+    <li>An exception is an error that occurs during program execution.</li>
+    <li>Example: division by zero, file not found, invalid input.</li>
+</ul>
+<pre>
+x = 5 / 0  # ZeroDivisionError
+</pre>
+<h3>try, except, else, finally blocks :</h3>
+<ul>
+    <li><b>Try :</b> The try block is used to wrap the code that might cause an exception.</li>
+    <li><b>Except :</b> Handles exceptions raised in the try block..</li>
+    <li><b>else :</b> Executes only if no exception occurs in the try block..</li>
+    <li><b>Finally :</b> Always executes, whether an exception occurs or not..</li>
+</ul>
+<p>Ex :</p>
+<pre>
+try:
+    x = int(input("Enter number: "))
+    y = 10 / x
+except ValueError:
+    print("Invalid input")
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+else:
+    print("Division result:", y)
+finally:
+    print("Program ended")
+</pre>
+
 <h2>File Handling</h2>
 <p>File handling is the process of creating, opening, reading, writing, and closing files stored on secondary storage using a program.<br>Python provides built-in functions to handle files easily.</p>
 <h3>Types of Files :</h3>
