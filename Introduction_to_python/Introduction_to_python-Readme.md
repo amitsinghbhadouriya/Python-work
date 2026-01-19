@@ -890,6 +890,13 @@ finally:
         <td>Variable not defined</td>
     </tr>
 </table>
+<h3>Raising Exceptions :</h3>
+<p>We can manually raise an exception using raise.</p>
+<pre>
+x = -5
+if x < 0:
+    raise ValueError("x cannot be negative")
+</pre>
 
 <h2>File Handling</h2>
 <p>File handling is the process of creating, opening, reading, writing, and closing files stored on secondary storage using a program.<br>Python provides built-in functions to handle files easily.</p>
