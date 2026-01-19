@@ -925,3 +925,24 @@ file.close()
         <td>Reads all lines as a list</td>
     </tr>
 </table>
+<h3>Writing to a file :</h3>
+<pre>
+file = open("example.txt", "w")
+file.write("Hello Python")
+file.close()
+</pre>
+<table>
+    <tr>
+        <th>Method</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>write()</td>
+        <td>Writes a string</td>
+    </tr>
+    <tr>
+        <td>writelines()</td>
+        <td>Writes multiple lines</td>
+    </tr>
+</table>
+<p>Write() does not add new line automatically</p>
