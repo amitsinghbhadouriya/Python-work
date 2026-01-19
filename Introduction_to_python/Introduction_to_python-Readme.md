@@ -834,6 +834,13 @@ outer()
 <pre>
 x = 5 / 0  # ZeroDivisionError
 </pre>
+<h3>Advantages :</h3>
+<ul>
+    <li>Prevents program crash</li>
+    <li>Provides user-friendly error messages</li>
+    <li>Helps in debugging</li>
+    <li>Allows controlled execution</li>
+</ul>
 <h3>try, except, else, finally blocks :</h3>
 <ul>
     <li><b>Try :</b> The try block is used to wrap the code that might cause an exception.</li>
