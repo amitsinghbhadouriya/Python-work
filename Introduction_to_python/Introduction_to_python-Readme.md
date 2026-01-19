@@ -989,3 +989,10 @@ except FileNotFoundError:
 finally:
     file.close()
 </pre>
+<h4>Common error in file handling :-</h4>
+<ul>
+    <li>File not found error</li>
+    <li>Permission error</li>
+    <li>Forgetting to close file</li>
+    <li>Wrong mode usage</li>
+</ul>
