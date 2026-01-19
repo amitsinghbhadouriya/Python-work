@@ -838,6 +838,19 @@ outer()
     <li>Store data in binary (0 and 1) format</li>
     <li>Example: .jpg, .png, .pdf, .mp3</li>
 </ul>
+<h3>Advantages :</h3>
+<ul>
+    <li>Permanent data storage</li>
+    <li>Data sharing</li>
+    <li>Easy backup</li>
+    <li>Large data handling</li>
+</ul>
+<h3>Disadvantages :</h3>
+<ul>
+    <li>Slower than memory</li>
+    <li>Risk to data corruption</li>
+    <li>Needs proper error handling</li>
+</ul>
 <h3>Opening a File :</h3>
 <p>A file is opened using the open() function.</p>
 <p>Syntax :</p>
