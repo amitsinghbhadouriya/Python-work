@@ -897,6 +897,15 @@ x = -5
 if x < 0:
     raise ValueError("x cannot be negative")
 </pre>
+<h3>Multiple Exceptions :</h3>
+<p>Handle multiple exceptions in one except block using a tuple.</p>
+<pre>
+try:
+    x = int(input("Enter number: "))
+    y = 10 / x
+except (ValueError, ZeroDivisionError):
+    print("Invalid input or division by zero")
+</pre>
 
 <h2>File Handling</h2>
 <p>File handling is the process of creating, opening, reading, writing, and closing files stored on secondary storage using a program.<br>Python provides built-in functions to handle files easily.</p>
