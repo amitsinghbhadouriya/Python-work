@@ -946,3 +946,9 @@ file.close()
     </tr>
 </table>
 <p>Write() does not add new line automatically</p>
+<h3>Closing a file :</h3>
+<p>Closing a file means releasing the file resource after performing read or write operations.</p>
+<p>Syntax :</p>
+<pre>
+file.close()
+</pre>
