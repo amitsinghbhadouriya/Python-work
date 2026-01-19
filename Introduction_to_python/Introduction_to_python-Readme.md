@@ -978,3 +978,14 @@ with open("data.txt", "r") as file:
     content = file.read()
     print(content)
 </pre>
+<h3>Exception handling in File handling :</h3>
+<p>Used to avoid runtime errors.</p>
+<pre>
+try:
+    file = open("test.txt", "r")
+    print(file.read())
+except FileNotFoundError:
+    print("File not found")
+finally:
+    file.close()
+</pre>
