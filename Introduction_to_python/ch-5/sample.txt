@@ -1,0 +1,4 @@
+Hello Python 
+This a sample document
+Python is an interpreted language 
+It is easy to learn and understand
