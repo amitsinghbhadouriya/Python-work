@@ -24,3 +24,13 @@ It represents a real-world entity.</p>
 <pre>
 s1 = Student()
 </pre>
+
+<h2>__init__() Constructor</h2>
+<p>A constructor is a special method that is automatically executed when an object is created.</p>
+<h4>Purpose:</h4>
+<p>Initialize object data</p>
+<pre>
+class Student:
+    def __init__(self, name):
+        self.name = name
+</pre>
