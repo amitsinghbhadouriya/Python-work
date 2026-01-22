@@ -40,3 +40,10 @@ class Student:
 <pre>
 self.name = name
 </pre>
+
+<h2>Class Variables</h2>
+<p>Variables that are shared by all objects of a class.</p>
+<pre>
+class Student:
+    college = "ABC College"
+</pre>
