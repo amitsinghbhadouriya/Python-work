@@ -100,3 +100,24 @@ def add(a, b):
         <td>__name</td>
     </tr>
 </table>
+
+<h2>Inheritance</h2>
+<p>Encapsulation means binding data and methods together and restricting access.</p>
+<h4>Benefits :</h4>
+<ul>
+    <li>Code reusability</li>
+    <li>Faster development</li>
+</ul>
+<h4>Syntax :</h4>
+<pre>
+class Child(Parent):
+    pass
+</pre>
+<h3>Types of inheritance</h3>
+<ol>
+    <li>Single</li>
+    <li>Multiple</li>
+    <li>Multilevel</li>
+    <li>Hierarchial</li>
+    <li>Hybrid</li>
+</ol>
