@@ -87,16 +87,59 @@ s1 = Student()
     <li>Occupies memory</li>
 </ul>
 
-<h2>__init__() Constructor</h2>
-<p>A constructor is a special method that is automatically executed when an object is created.</p>
-<h4>Purpose:</h4>
-<p>Initialize object data</p>
+<h2>Constructor</h2>
+<p>A constructor is a special method that is automatically called when a new object of a class is created. <br>Its main purpose is to initialize the attributes of the object. <br>In Python, the constructor method is named __init__().</p>
+<p>Syntax :</p>
 <pre>
-class Student:
-    def __init__(self, name):
-        self.name = name
+class ClassName:
+    def __init__(self, parameters):
+        # initialization code
+        self.attribute1 = value1
+        self.attribute2 = value2
 </pre>
-
+<ul>
+    <li>__init__ is the constructor method.</li>
+    <li>self represents the instance of the class.</li>
+    <li>parameters can be used to pass values when creating an object.</li>
+</ul>
+<h3>Simple Constructor</h3>
+<pre>
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+p1 = Person("Amit", 22)
+print(p1.name)  # Output: Amit
+print(p1.age)   # Output: 22
+</pre>
+<p>Here, __init__ initializes name and age when the object p1 is created.</p>
+<h3>Constructor Without Parameters</h3>
+<pre>
+class Car:
+    def __init__(self):
+        self.brand = "Toyota"
+        self.model = "Corolla"
+c1 = Car()
+print(c1.brand)  # Output: Toyota
+print(c1.model)  # Output: Corolla
+</pre>
+<p>Key Points :</p>
+<ul>
+    <li>__init__ is automatically called when an object is created.</li>
+    <li>We can have parameters in a constructor to initialize attributes dynamically</li>
+    <li>We cannot have multiple constructors like in Java or C++; instead, We can use default values or *args and **kwargs.</li>
+</ul>
+<h3>Constructor with Default Values</h3>
+<pre>
+class Laptop:
+    def __init__(self, brand="Dell", ram="8GB"):
+        self.brand = brand
+        self.ram = ram
+l1 = Laptop()
+l2 = Laptop("HP", "16GB")
+print(l1.brand, l1.ram)  # Output: Dell 8GB
+print(l2.brand, l2.ram)  # Output: HP 16GB
+</pre>
 
 <h2>Encapsulation</h2>
 <p>Encapsulation means binding data and methods together and restricting access.</p>
