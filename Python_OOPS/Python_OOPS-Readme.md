@@ -17,3 +17,10 @@
 class Student:
     pass
 </pre>
+
+<h2>Object</h2>
+<p>An object is an instance of a class.<br>
+It represents a real-world entity.</p>
+<pre>
+s1 = Student()
+</pre>
