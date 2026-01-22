@@ -25,6 +25,8 @@ class ClassName:
 </ul>
 
 <h2>Data members (Variables)</h2>
+<p>Data members are variables defined inside a class that store data related to an object.</p>
+<h3>Types of Variables</h3>
 <ul>
     <li>Instance variables</li>
     <li>Class variables</li>
@@ -41,26 +43,7 @@ class Student:
     college = "ABC College"
 </pre>
 
-<h2>Object</h2>
-<p>An object is an instance of a class.<br>
-It represents a real-world entity.</p>
-<pre>
-s1 = Student()
-</pre>
-
-<h2>__init__() Constructor</h2>
-<p>A constructor is a special method that is automatically executed when an object is created.</p>
-<h4>Purpose:</h4>
-<p>Initialize object data</p>
-<pre>
-class Student:
-    def __init__(self, name):
-        self.name = name
-</pre>
-
-
-
-<h2>Methods</h2>
+<h2>Member Functions (Methods)</h2>
 <p>Functions defined inside a class.</p>
 <h3>Types of Methods</h3>
 <ol>
@@ -90,6 +73,24 @@ Uses @staticmethod.</p>
 def add(a, b):
     return a + b
 </pre>
+
+<h2>Object</h2>
+<p>An object is an instance of a class.<br>
+It represents a real-world entity.</p>
+<pre>
+s1 = Student()
+</pre>
+
+<h2>__init__() Constructor</h2>
+<p>A constructor is a special method that is automatically executed when an object is created.</p>
+<h4>Purpose:</h4>
+<p>Initialize object data</p>
+<pre>
+class Student:
+    def __init__(self, name):
+        self.name = name
+</pre>
+
 
 <h2>Encapsulation</h2>
 <p>Encapsulation means binding data and methods together and restricting access.</p>
