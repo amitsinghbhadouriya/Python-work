@@ -47,3 +47,12 @@ self.name = name
 class Student:
     college = "ABC College"
 </pre>
+
+<h2>Methods</h2>
+<p>Functions defined inside a class.</p>
+<h3>Types of Methods</h3>
+<ol>
+    <li>Instance Method</li>
+    <li>Class Method</li>
+    <li>Static Method</li>
+</ol>
