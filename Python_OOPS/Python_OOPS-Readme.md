@@ -56,3 +56,25 @@ class Student:
     <li>Class Method</li>
     <li>Static Method</li>
 </ol>
+<h3>Instance Method :</h3>
+<p>Uses self and works on object data.</p>
+<pre>
+def show(self):
+    print(self.name)
+</pre>
+<h3>Class Method :</h3>
+<p>Works on class variables.<br>
+Uses @classmethod.</p>
+<pre>
+@classmethod
+def show_college(cls):
+    print(cls.college)
+</pre>
+<h3>Static Method :</h3>
+<p>Does not use self or cls.<br>
+Uses @staticmethod.</p>
+<pre>
+@staticmethod
+def add(a, b):
+    return a + b
+</pre>
