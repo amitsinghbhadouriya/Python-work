@@ -142,24 +142,34 @@ print(l2.brand, l2.ram)  # Output: HP 16GB
 </pre>
 
 <h2>Encapsulation</h2>
-<p>Encapsulation means binding data and methods together and restricting access.</p>
+<p>Encapsulation is the practice of hiding the internal details of a class (its data and methods) and providing controlled access to them through public methods.</p>
+<p>It helps in :</p>
+<ul>
+    <li>Protecting data from unauthorized access.</li>
+    <li>Making code more secure and maintainable.</li>
+    <li>Providing a clear interface for interacting with an object.</li>
+</ul>
 <h3>Access Modifiers :</h3>
 <table>
     <tr>
         <th>Type</th>
         <th>Syntax</th>
+        <th>Purpose</th>
     </tr>
     <tr>
         <td>Public</td>
         <td>name</td>
+        <td>accessible from anywhere.</td>
     </tr>
     <tr>
         <td>Protected</td>
         <td>_name</td>
+        <td>intended to be accessed only within the class and its subclasses.</td>
     </tr>
     <tr>
         <td>Private</td>
         <td>__name</td>
+        <td>intended to be accessed only within the class itself.</td>
     </tr>
 </table>
 
