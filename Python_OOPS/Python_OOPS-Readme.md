@@ -34,3 +34,9 @@ class Student:
     def __init__(self, name):
         self.name = name
 </pre>
+
+<h2>Instance Variables</h2>
+<p>Variables that belong to individual objects.</p>
+<pre>
+self.name = name
+</pre>
