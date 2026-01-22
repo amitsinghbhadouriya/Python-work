@@ -78,3 +78,25 @@ Uses @staticmethod.</p>
 def add(a, b):
     return a + b
 </pre>
+
+<h2>Encapsulation</h2>
+<p>Encapsulation means binding data and methods together and restricting access.</p>
+<h3>Access Modifiers :</h3>
+<table>
+    <tr>
+        <th>Type</th>
+        <th>Syntax</th>
+    </tr>
+    <tr>
+        <td>Public</td>
+        <td>name</td>
+    </tr>
+    <tr>
+        <td>Protected</td>
+        <td>_name</td>
+    </tr>
+    <tr>
+        <td>Private</td>
+        <td>__name</td>
+    </tr>
+</table>
