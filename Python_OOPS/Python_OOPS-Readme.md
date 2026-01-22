@@ -75,11 +75,17 @@ def add(a, b):
 </pre>
 
 <h2>Object</h2>
-<p>An object is an instance of a class.<br>
-It represents a real-world entity.</p>
+<p>An object is a real-world entity and an instance of a class.<br>It represents data and behavior defined in the class.</p>
 <pre>
 s1 = Student()
 </pre>
+<h4>Characteristics of Objects</h4>
+<ul>
+    <li>Has identity</li>
+    <li>Has state (data)</li>
+    <li>Has behavior (methods)</li>
+    <li>Occupies memory</li>
+</ul>
 
 <h2>__init__() Constructor</h2>
 <p>A constructor is a special method that is automatically executed when an object is created.</p>
