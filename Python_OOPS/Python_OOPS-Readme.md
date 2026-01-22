@@ -121,3 +121,79 @@ class Child(Parent):
     <li>Hierarchial</li>
     <li>Hybrid</li>
 </ol>
+
+<h2>Polymorphism</h2>
+<p>Polymorphism means same function name, different behavior.</p>
+<p>Example :</p>
+<pre>
+print(len("Hello"))
+print(len([1,2,3]))
+</pre>
+
+<h3>Method Overloading</h3>
+<p>Same method name, different parameters.<br>
+(Python supports it using default arguments.)</p>
+<pre>
+def add(a=0, b=0):
+    return a + b
+</pre>
+
+<h3>Method Overriding</h3>
+<p>Child class redefines parent class method.</p>
+<pre>
+class Parent:
+    def show(self):
+        print("Parent")
+class Child(Parent):
+    def show(self):
+        print("Child")
+</pre>
+
+<h2>Abstraction</h2>
+<p>Abstraction hides internal implementation and shows only necessary details.</p>
+<h4>Achieved using:</h4>
+<ul>
+    <li>Abstract class</li>
+    <li>Abstract method</li>
+</ul>
+<h3>Abstract Class</h3>
+<p>A class that contains at least one abstract method.<br>Uses abc module.</p>
+<pre>
+from abc import ABC, abstractmethod
+</pre>
+<h3>Abstract Method</h3>
+<p>A method with no body.</p>
+<pre>
+@abstractmethod
+def show(self):
+    pass
+</pre>
+
+<h2>self Keyword</h2>
+<p>Refers to current object<br>Used to access instance variables</p>
+
+<h2>super() Function</h2>
+<p>Used to call parent class methods.</p>
+<pre>
+super().__init__()
+</pre>
+
+<h2>Destructor (__del__)</h2>
+<p>Executed when object is destroyed.</p>
+<pre>
+def __del__(self):
+    print("Object destroyed")
+</pre>
+
+<h2>Operator Overloading</h2>
+<p>Changing meaning of operators using special methods.</p>
+<pre>
+def __add__(self, other):
+    return self.x + other.x
+</pre>
+
+<h2>Data Hiding</h2>
+<p>Achieved using private variables.</p>
+<pre>
+self.__password
+</pre>
