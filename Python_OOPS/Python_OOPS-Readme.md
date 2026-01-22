@@ -18,6 +18,28 @@ class ClassName:
     # data members
     # member functions
 </pre>
+<h3>Components of a Class</h3>
+<ul>
+    <li>Data members (Variables)</li>
+    <li>Member Functions (Methods)</li>
+</ul>
+
+<h2>Data members (Variables)</h2>
+<ul>
+    <li>Instance variables</li>
+    <li>Class variables</li>
+</ul>
+<h3>Instance Variables :</h3>
+<p>Variables that belong to individual objects.</p>
+<pre>
+self.name = name
+</pre>
+<h3>Class Variables :</h3>
+<p>Variables that are shared by all objects of a class.</p>
+<pre>
+class Student:
+    college = "ABC College"
+</pre>
 
 <h2>Object</h2>
 <p>An object is an instance of a class.<br>
@@ -36,18 +58,7 @@ class Student:
         self.name = name
 </pre>
 
-<h2>Instance Variables</h2>
-<p>Variables that belong to individual objects.</p>
-<pre>
-self.name = name
-</pre>
 
-<h2>Class Variables</h2>
-<p>Variables that are shared by all objects of a class.</p>
-<pre>
-class Student:
-    college = "ABC College"
-</pre>
 
 <h2>Methods</h2>
 <p>Functions defined inside a class.</p>
