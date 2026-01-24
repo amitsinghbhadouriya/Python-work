@@ -173,6 +173,7 @@ print(l2.brand, l2.ram)  # Output: HP 16GB
     </tr>
 </table>
 
+
 <h2>Inheritance</h2>
 <p>Encapsulation means binding data and methods together and restricting access.</p>
 <h4>Benefits :</h4>
