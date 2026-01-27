@@ -291,6 +291,19 @@ class C(A):
 class D(B, C):
     pass
 </pre>
+<h3>Advantages of Inheritance</h3>
+<ul>
+    <li>Code reuse</li>
+    <li>Faster development</li>
+    <li>Easier maintenance</li>
+    <li>Clear structure</li>
+</ul>
+<h3>Disadvantages of Inheritance</h3>
+<ul>
+    <li>Tight coupling</li>
+    <li>Increased complexity</li>
+    <li>Improper use can make code difficult to understand</li>
+</ul>
 
 <h2>Polymorphism</h2>
 <p>Polymorphism means same function name, different behavior.</p>
