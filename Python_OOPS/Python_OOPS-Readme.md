@@ -175,15 +175,21 @@ print(l2.brand, l2.ram)  # Output: HP 16GB
 
 
 <h2>Inheritance</h2>
-<p>Encapsulation means binding data and methods together and restricting access.</p>
+<p>Inheritance is an concept where a child class (derived class) inherits properties and methods from a parent class (base class).</p>
 <h4>Benefits :</h4>
 <ul>
     <li>Code reusability</li>
+    <li>Logical hierarchy</li>
+    <li>Easy maintenance</li>
     <li>Faster development</li>
 </ul>
 <h4>Syntax :</h4>
 <pre>
-class Child(Parent):
+class ParentClass:
+    # parent class code
+    pass
+class ChildClass(ParentClass):
+    # child class code
     pass
 </pre>
 <h3>Types of inheritance</h3>
@@ -194,6 +200,97 @@ class Child(Parent):
     <li>Hierarchial</li>
     <li>Hybrid</li>
 </ol>
+<h3>Single Inheritance</h3>
+<p>One child class inherits from one parent class.</p>
+<h4>Structure:</h4>
+<pre>
+A → B
+</pre>
+<h4>Syntax:</h4>
+<pre>
+class Animal:
+    def eat(self):
+        print("Eating")
+class Dog(Animal):
+    def bark(self):
+        print("Barking")
+</pre>
+<h3>Multiple Inheritance</h3>
+<p>One child class inherits from multiple parent classes.</p>
+<h4>Structure:</h4>
+<pre>
+A   B
+ \ /
+  C
+</pre>
+<h4>Syntax:</h4>
+<pre>
+class Father:
+    def skill1(self):
+        print("Driving")
+class Mother:
+    def skill2(self):
+        print("Cooking")
+class Child(Father, Mother):
+    pass
+</pre>
+<h3>Multilevel Inheritance</h3>
+<p>A child class inherits from another child class.</p>
+<h4>Structure:</h4>
+<pre>
+A → B → C
+</pre>
+<h4>Syntax:</h4>
+<pre>
+class Grandparent:
+    def show1(self):
+        print("Grandparent")
+class Parent(Grandparent):
+    def show2(self):
+        print("Parent")
+class Child(Parent):
+    def show3(self):
+        print("Child")
+</pre>
+<h3>Hierarchial Inheritance</h3>
+<p>Multiple child classes inherit from one parent class.</p>
+<h4>Structure:</h4>
+<pre>
+    A
+   / \
+  B   C
+</pre>
+<h4>Syntax:</h4>
+<pre>
+class Shape:
+    def draw(self):
+        print("Drawing shape")
+class Circle(Shape):
+    pass
+class Square(Shape):
+    pass
+</pre>
+<h3>Hybrid Inheritance</h3>
+<p>Combination of two or more inheritance types.</p>
+<h4>Structure:</h4>
+<pre>
+    A
+   / \
+  B   C
+   \ /
+    D
+</pre>
+<h4>Syntax:</h4>
+<pre>
+class A:
+    pass
+class B(A):
+    pass
+class C(A):
+    pass
+class D(B, C):
+    pass
+</pre>
 
 <h2>Polymorphism</h2>
 <p>Polymorphism means same function name, different behavior.</p>
