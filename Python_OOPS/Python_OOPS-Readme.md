@@ -291,6 +291,22 @@ class C(A):
 class D(B, C):
     pass
 </pre>
+<h3>super() Function</h3>
+<p>Used to call parent class methods from a child class.</p>
+<h4>Structure:</h4>
+<pre>
+super().__init__()
+</pre>
+<h4>Syntax:</h4>
+<pre>
+class Parent:
+    def display(self):
+        print("Parent")
+class Child(Parent):
+    def display(self):
+        super().display()
+        print("Child")
+</pre>
 <h3>Advantages of Inheritance</h3>
 <ul>
     <li>Code reuse</li>
@@ -354,12 +370,6 @@ def show(self):
 
 <h2>self Keyword</h2>
 <p>Refers to current object<br>Used to access instance variables</p>
-
-<h2>super() Function</h2>
-<p>Used to call parent class methods.</p>
-<pre>
-super().__init__()
-</pre>
 
 <h2>Destructor (__del__)</h2>
 <p>Executed when object is destroyed.</p>
