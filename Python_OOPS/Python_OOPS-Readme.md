@@ -409,7 +409,57 @@ n1 = Number(10)
 n2 = Number(20)
 print(n1 + n2)   
 </pre>
-
+<h3>Common Operator Overloading Methods</h3>
+<table>
+    <tr>
+        <th>Operator</th>
+        <th>Method</th>
+    </tr>
+    <tr>
+        <td>+</td>
+        <td>__add__()</td>
+    </tr>
+    <tr>
+        <td>+</td>
+        <td>__add__()</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>__sub__()</td>
+    </tr>
+    <tr>
+        <td>*</td>
+        <td>__mul__()</td>
+    </tr>
+    <tr>
+        <td>/</td>
+        <td>__truediv__()</td>
+    </tr>
+    <tr>
+        <td>==</td>
+        <td>__eq__()</td>
+    </tr>
+    <tr>
+        <td><</td>
+        <td>__lt__()</td>
+    </tr>
+    <tr>
+        <td>></td>
+        <td>__gt__()</td>
+    </tr>
+    <tr>
+        <td><=</td>
+        <td>__le__()</td>
+    </tr>
+    <tr>
+        <td>>=</td>
+        <td>__ge__()</td>
+    </tr>
+    <tr>
+        <td>!=</td>
+        <td>__ne__()</td>
+    </tr>
+</table>
 
 
 
