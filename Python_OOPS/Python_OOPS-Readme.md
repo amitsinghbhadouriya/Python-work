@@ -184,7 +184,6 @@ class ClassName:
     </tr>
 </table>
 
-
 <h2>Inheritance</h2>
 <p>Inheritance is an concept where a child class (derived class) inherits properties and methods from a parent class (base class).</p>
 <h4>Benefits :</h4>
@@ -357,8 +356,6 @@ print(len([1,2,3]))
 def add(a=0, b=0):
     return a + b
 </pre>
-
-
 
 <h2>Abstraction</h2>
 <p>Abstraction hides internal implementation and shows only necessary details.</p>
