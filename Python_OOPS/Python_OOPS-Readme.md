@@ -152,6 +152,16 @@ class ClassName:
         pass
 </pre>
 
+<h2>self Keyword</h2>
+<p>The self keyword represents the current object (instance) of a class.<br>
+It is used to access instance variables and instance methods inside a class.</p>
+<h4>Syntax:</h4>
+<pre>
+class ClassName:
+    def method(self):
+        print("This is a method")
+</pre>
+
 <h2>Encapsulation</h2>
 <p>Encapsulation is the practice of hiding the internal details of a class (its data and methods) and providing controlled access to them through public methods.</p>
 <p>It helps in :</p>
@@ -386,6 +396,16 @@ def add(a=0, b=0):
     return a + b
 </pre>
 
+
+
+
+
+
+
+
+
+
+
 <h2>Abstraction</h2>
 <p>Abstraction hides internal implementation and shows only necessary details.</p>
 <h4>Achieved using:</h4>
@@ -406,8 +426,6 @@ def show(self):
     pass
 </pre>
 
-<h2>self Keyword</h2>
-<p>Refers to current object<br>Used to access instance variables</p>
 
 
 
