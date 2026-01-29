@@ -307,6 +307,16 @@ class Child(Parent):
         super().display()
         print("Child")
 </pre>
+<h3>Method Overriding</h3>
+<p>When a child class provides its own implementation of a parent class method.</p>
+<pre>
+class Parent:
+    def show(self):
+        print("Parent method")
+class Child(Parent):
+    def show(self):
+        print("Child method")
+</pre>
 <h3>Advantages of Inheritance</h3>
 <ul>
     <li>Code reuse</li>
@@ -337,16 +347,7 @@ def add(a=0, b=0):
     return a + b
 </pre>
 
-<h3>Method Overriding</h3>
-<p>Child class redefines parent class method.</p>
-<pre>
-class Parent:
-    def show(self):
-        print("Parent")
-class Child(Parent):
-    def show(self):
-        print("Child")
-</pre>
+
 
 <h2>Abstraction</h2>
 <p>Abstraction hides internal implementation and shows only necessary details.</p>
