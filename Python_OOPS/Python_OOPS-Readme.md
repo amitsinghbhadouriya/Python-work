@@ -396,6 +396,20 @@ def add(a=0, b=0):
     return a + b
 </pre>
 
+<h2>Operator Overloading</h2>
+<p>Operator Overloading allows us to give special meaning to operators (+, -, *, ==, etc.) when they are used with user-defined objects (classes).</p>
+<h4>Example:</h4>
+<pre>
+class Number:
+    def __init__(self, value):
+        self.value = value
+    def __add__(self, other):
+        return self.value + other.value
+n1 = Number(10)
+n2 = Number(20)
+print(n1 + n2)   
+</pre>
+
 
 
 
@@ -429,12 +443,7 @@ def show(self):
 
 
 
-<h2>Operator Overloading</h2>
-<p>Changing meaning of operators using special methods.</p>
-<pre>
-def __add__(self, other):
-    return self.x + other.x
-</pre>
+
 
 <h2>Data Hiding</h2>
 <p>Achieved using private variables.</p>
