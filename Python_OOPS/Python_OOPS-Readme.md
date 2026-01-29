@@ -342,11 +342,40 @@ class Child(Parent):
 </ul>
 
 <h2>Polymorphism</h2>
-<p>Polymorphism means same function name, different behavior.</p>
+<p>Polymorphism means “many forms.”
+<br>polymorphism allows the same function or method name to behave differently depending on the object that is calling it.</p>
+<h3>Types of Polymorphism</h3>
+<ul>
+    <li>Compile-Time Polymorphism</li>
+    <li>Runtime Polymorphism</li>
+</ul>
+<h3>Compile-Time Polymorphism</h3>
+<p>Python does not support true compile-time polymorphism, but it is achieved using default arguments or *args.</p>
 <p>Example :</p>
 <pre>
-print(len("Hello"))
-print(len([1,2,3]))
+class Math:
+    def add(self, a=0, b=0, c=0):
+        return a + b + c
+m = Math()
+print(m.add(2, 3))
+print(m.add(2, 3, 4))
+</pre>
+<h3>Runtime Polymorphism</h3>
+<p>Achieved using method overriding and inheritance.</p>
+<p>Example :</p>
+<pre>
+class Animal:
+    def speak(self):
+        print("Animal makes a sound")
+class Dog(Animal):
+    def speak(self):
+        print("Dog barks")
+class Cat(Animal):
+    def speak(self):
+        print("Cat meows")
+animals = [Dog(), Cat(), Animal()]
+for a in animals:
+    a.speak()
 </pre>
 
 <h3>Method Overloading</h3>
