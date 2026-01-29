@@ -489,13 +489,13 @@ def show(self):
     pass
 </pre>
 
-
-
-
-
-
 <h2>Data Hiding</h2>
-<p>Achieved using private variables.</p>
+<p>Data Hiding is an OOP concept where the internal details (data/attributes) of a class are hidden from outside access.
+</p>
+<ul>
+    <li>This is done to protect sensitive data from accidental modification.</li>
+    <li>Only methods inside the class (or specially designed getter/setter methods) can access or modify these hidden attributes.</li>
+</ul>
 <pre>
 self.__password
 </pre>
