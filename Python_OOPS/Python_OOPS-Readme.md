@@ -141,6 +141,17 @@ print(l1.brand, l1.ram)  # Output: Dell 8GB
 print(l2.brand, l2.ram)  # Output: HP 16GB
 </pre>
 
+<h2>Destructor</h2>
+<p>A destructor is a special method that is automatically called when an object is destroyed or removed from memory.
+<br>The destructor method is named __del__().<br>It is mainly used to release resources like files, database connections, or network sockets.</p>
+<h4>Syntax:</h4>
+<pre>
+class ClassName:
+    def __del__(self):
+        # cleanup code
+        pass
+</pre>
+
 <h2>Encapsulation</h2>
 <p>Encapsulation is the practice of hiding the internal details of a class (its data and methods) and providing controlled access to them through public methods.</p>
 <p>It helps in :</p>
@@ -372,12 +383,7 @@ def show(self):
 <h2>self Keyword</h2>
 <p>Refers to current object<br>Used to access instance variables</p>
 
-<h2>Destructor (__del__)</h2>
-<p>Executed when object is destroyed.</p>
-<pre>
-def __del__(self):
-    print("Object destroyed")
-</pre>
+
 
 <h2>Operator Overloading</h2>
 <p>Changing meaning of operators using special methods.</p>
