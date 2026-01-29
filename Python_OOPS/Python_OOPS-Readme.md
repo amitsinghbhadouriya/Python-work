@@ -378,7 +378,7 @@ for a in animals:
     a.speak()
 </pre>
 
-<h3>Method Overloading</h3>
+<h2>Method Overloading</h2>
 <p>Same method name, different parameters.<br>
 (Python supports it using default arguments.)</p>
 <pre>
