@@ -461,29 +461,28 @@ print(n1 + n2)
     </tr>
 </table>
 
-
-
-
-
-
-
-
-
-
 <h2>Abstraction</h2>
-<p>Abstraction hides internal implementation and shows only necessary details.</p>
+<p>Abstraction is a concept that hides the internal details of how something works and shows only the necessary parts to the user..</p>
 <h4>Achieved using:</h4>
 <ul>
     <li>Abstract class</li>
     <li>Abstract method</li>
 </ul>
 <h3>Abstract Class</h3>
-<p>A class that contains at least one abstract method.<br>Uses abc module.</p>
-<pre>
-from abc import ABC, abstractmethod
-</pre>
+<p>An abstract class is a class that cannot be instantiated directly.<br>
+It is meant to be inherited by other classes.
+</p>
+<ul>
+    <li>Use it when you want to define a common interface for multiple subclasses.</li>
+    <li>Abstract classes can have both regular methods (with implementation) and abstract methods (without implementation).</li>
+</ul>
 <h3>Abstract Method</h3>
-<p>A method with no body.</p>
+<p>An abstract method is a method that is declared, but contains no implementation.
+</p>
+<ul>
+    <li>Subclasses must override abstract methods.</li>
+    <li>Abstract methods are created using the @abstractmethod decorator.</li>
+</ul>
 <pre>
 @abstractmethod
 def show(self):
