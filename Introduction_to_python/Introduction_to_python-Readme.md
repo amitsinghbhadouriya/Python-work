@@ -1086,6 +1086,3 @@ finally:
     <li>Forgetting to close file</li>
     <li>Wrong mode usage</li>
 </ul>
-df
-kldfj
-dff
