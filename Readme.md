@@ -5,7 +5,3 @@
     <li>Introduction to Python</li>
     <li>Python OOPS</li>
 </ul>
-
-
-
-
